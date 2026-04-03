@@ -22,7 +22,7 @@ console.log(a)
 b-- // Decremento
 console.log(b)
 
-// Operadores de asignacion
+// // Operadores de asignacion
 
 let myVariable = 2
 console.log(myVariable)
@@ -35,7 +35,7 @@ myVariable /= 2 // División con asignación
 myVariable %= 2 // Módulo con asignación
 myVariable **= 2 // Exponente con asignación
 
-// Operadores de comparación
+// // Operadores de comparación
 
 console.log(a > b) // Mayor que
 console.log(a < b) // Menor que
@@ -61,49 +61,49 @@ console.log(0 === "")
 console.log(undefined == null)
 console.log(undefined === null)
 
-/*
-Truthy values (valores verdaderos)
+// /*
+// Truthy values (valores verdaderos)
 
-- Todos los numeros positivos y negativos menos el cero
-- Todas las cadenas de texto menos las vacías
-- El boolean true
-*/
+// - Todos los numeros positivos y negativos menos el cero
+// - Todas las cadenas de texto menos las vacías
+// - El boolean true
+// */
 
-/*
-Falsy values (valores falsos)
+// /*
+// Falsy values (valores falsos)
 
-- 0
--  0n
-- null
-- undefined
-- NaN (Not a Number)
-- El boolean false
-- Cadenas de texto vacías 
-*/
+// - 0
+// -  0n
+// - null
+// - undefined
+// - NaN (Not a Number)
+// - El boolean false
+// - Cadenas de texto vacías 
+// */
 
-// Operadores lógicos
+// // Operadores lógicos
 
-// and (&&)
-console.log(5 > 10 && 15 > 20)
-console.log(5 < 10 && 15 < 20)
-console.log(5 < 10 && 15 > 20)
-console.log(5 > 10 && 15 > 20 && 30 > 40)
+// // and (&&)
+// console.log(5 > 10 && 15 > 20)
+// console.log(5 < 10 && 15 < 20)
+// console.log(5 < 10 && 15 > 20)
+// console.log(5 > 10 && 15 > 20 && 30 > 40)
 
-// or (||)
-console.log(5 > 10 || 15 > 20)
-console.log(5 < 10 || 15 < 20)
-console.log(5 < 10 || 15 > 20)
-console.log(5 > 10 || 15 > 20 || 30 > 40)
+// // or (||)
+// console.log(5 > 10 || 15 > 20)
+// console.log(5 < 10 || 15 < 20)
+// console.log(5 < 10 || 15 > 20)
+// console.log(5 > 10 || 15 > 20 || 30 > 40)
 
-console.log(5 > 10 && 15 > 20 || 30 < 40)
+// console.log(5 > 10 && 15 > 20 || 30 < 40)
 
-// not (!)
-console.log(!true)
-console.log(!false)
-console.log(!(5 > 10 && 15 > 20))
-console.log(!(5 > 10 || 15 > 20))
+// // not (!)
+// console.log(!true)
+// console.log(!false)
+// console.log(!(5 > 10 && 15 > 20))
+// console.log(!(5 > 10 || 15 > 20))
 
-// Operadores ternarios
+// // Operadores ternarios
 
 const isRaining = false
 isRaining ? console.log("Está lloviendo") : console.log("No está lloviendo")

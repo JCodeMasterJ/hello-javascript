@@ -1,9 +1,6 @@
-/*
-Clase 20 - Ejercicios: Operadores
-Vídeo: https://youtu.be/1glVfFxj8a4?t=6458
-*/
-
 // 1. Crea una variable para cada operación aritmética
+
+
 
 // 2. Crea una variable para cada tipo de operación de asignación,
 //    que haga uso de las variables utilizadas para las operaciones aritméticas
@@ -21,5 +18,7 @@ Vídeo: https://youtu.be/1glVfFxj8a4?t=6458
 // 8. Añade alguna negación
 
 // 9. Utiliza el operador ternario
-
+const isStudent = true
+isStudent ? console.log("Obvio si") : console.log("ñao ñao")
 // 10. Combina operadores aritméticos, de comparáción y lógicas
+console.log(!(5 * 2 < (18 / 3)) || (5 <= 6 && ((9 * 2) != 19)))

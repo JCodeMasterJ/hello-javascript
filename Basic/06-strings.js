@@ -41,8 +41,13 @@ let message = `Hola, este
 es mi
 curso de
 JavaScript`
+let msg = `Lo encontre
+hijos de su 
+****`
 console.log(message)
+console.log(msg)
 
 // Interpolación de valores
 let email = "braismoure@mouredev.com"
 console.log(`Hola, ${myName}! Tu email es ${email}.`)
+console.log(`A huevo ${myName} encontre el que era`)

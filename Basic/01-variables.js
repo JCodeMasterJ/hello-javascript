@@ -1,29 +1,23 @@
-/*
-Clase 16 - Variables
-Vídeo: https://youtu.be/1glVfFxj8a4?t=3049
-*/
+//var
 
-// var
-
-var helloWorld = "¡Hola, JavaScript!"
+var helloWorld = "Hello, JS"
 console.log(helloWorld)
 
-helloWorld = "¡Hola de nuevo, JavaScript!"
+helloWorld = "Hello again, JS"
 console.log(helloWorld)
 
-// let
+//let -> Solo accesibles dentro del bloque
 
-let helloWorld2 = "¡Hola, JavaScript 2!"
+let helloWorld2 = "Hello, JS 2"
 console.log(helloWorld2)
 
-helloWorld2 = "¡Hola de nuevo, JavaScript 2!"
+helloWorld2 = "Hello again, JS 2"
 console.log(helloWorld2)
 
-// const
+//const -> No se pueden reasignar
 
-const helloWorld3 = "¡Hola, JavaScript 3!"
+const helloWorld3 = "Hello, JS 3"
 console.log(helloWorld3)
 
-// Error
-// helloWorld3 = "¡Hola de nuevo, JavaScript 2!"
-// console.log(helloWorld3)
+helloWorld3 = "Hello again, JS 3"
+console.log(helloWorld3)
