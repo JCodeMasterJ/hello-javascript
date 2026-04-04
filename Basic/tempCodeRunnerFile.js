@@ -1,2 +1,8 @@
-const isRaining = false
-isRaining ? console.log("Está lloviendo") : console.log("No está lloviendo")
+console.log(myArray)
+
+myArray.unshift("Brais", "mouredev")
+console.log(myArray)
+
+// length
+
+console.log(myArray.length)

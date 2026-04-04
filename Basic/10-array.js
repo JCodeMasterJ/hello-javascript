@@ -1,7 +1,3 @@
-/*
-Clase 25 - Arrays
-Vídeo: https://youtu.be/1glVfFxj8a4?t=8741
-*/
 
 // Array
 
@@ -84,7 +80,7 @@ myArray = []
 myArray.length = 0 // alternativa
 console.log(myArray)
 
-// slice
+// // slice
 
 myArray = ["Brais", "Moure", "mouredev", 37, true]
 
@@ -93,7 +89,7 @@ let myNewArray = myArray.slice(1, 3)
 console.log(myArray)
 console.log(myNewArray)
 
-// splice
+// // splice
 
 myArray.splice(1, 3)
 console.log(myArray)

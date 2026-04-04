@@ -1,8 +1,3 @@
-/*
-Clase 26 - Sets 
-Vídeo: https://youtu.be/1glVfFxj8a4?t=9952
-*/
-
 // Set
 
 // Declaración
