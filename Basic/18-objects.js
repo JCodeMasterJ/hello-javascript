@@ -1,8 +1,3 @@
-/*
-Clase 33 - Objetos
-Vídeo: https://youtu.be/1glVfFxj8a4?t=14229
-*/
-
 // Objetos
 
 // Sintaxis

@@ -1,8 +1,3 @@
-/*
-Clase 29 - Bucles
-Vídeo: https://youtu.be/1glVfFxj8a4?t=11575
-*/
-
 // Loops o bucles
 
 // for
