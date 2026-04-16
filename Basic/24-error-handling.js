@@ -1,7 +1,3 @@
-/*
-Clase 40 - Manejo de errores
-Vídeo: https://youtu.be/1glVfFxj8a4?t=18751
-*/
 
 // Excepción
 

@@ -88,13 +88,10 @@ let text = "Hola me van a invertir"
 let newText = ""
 function inverse(text) {
     for (let i = text.length - 1; i >= 0; i--) {
-        // console.log(text[i])
-        // newText.split(text[i], 1)
         newText += text[i]
     }
     return newText
 }
 console.log(inverse(text))
-
-
 // 10. Crea una función que calcule el factorial de un número dado
+//Facilito
